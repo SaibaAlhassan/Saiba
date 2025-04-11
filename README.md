@@ -1,9 +1,9 @@
 # Saiba
 
-const int LDR_PIN = A0;    // LDR connected to analog pin A0
-const int LED_PIN = 9;     // LED connected to digital pin 9 (PWM pin)
-const int TRIG_PIN = 12;   // Trigger pin for ultrasonic sensor
-const int ECHO_PIN = 13;   // Echo pin for ultrasonic sensor
+const int LDR_PIN = A0;  // LDR connected to analog pin A0
+const int LED_PIN = 9;  // LED connected to digital pin 9 (PWM pin)
+const int TRIG_PIN = 12; // Trigger pin for ultrasonic sensor
+const int ECHO_PIN = 13; // Echo pin for ultrasonic sensor
 
 long duration;
 int distance;
